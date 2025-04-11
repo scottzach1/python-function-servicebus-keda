@@ -1,3 +1,4 @@
 # Do not include azure-functions-worker as it may conflict with the Azure Functions platform
 
 azure-functions
+werkzeug>=3.0.6 # not directly required, pinned by Snyk to avoid a vulnerability
